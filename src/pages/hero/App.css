@@ -1,0 +1,19 @@
+.parent {
+  background-image: url(./assets/background_blur.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  background-attachment: fixed;
+  /* Add this line */
+}
+
+.text-gradient {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  --tw-gradient-from: #71d16c;
+  --tw-gradient-to: rgba(113, 209, 108, 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #0ea5e9;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
