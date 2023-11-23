@@ -49,7 +49,7 @@ const AudioVisualiser = () => {
     }
   }, [canvasRef, analyser]);
 
-  return analyser ? <canvas width="600" height="300" ref={canvasRef} /> : null;
+  return analyser ? <canvas  class = "w-full max-h-[300px]" height="300" ref={canvasRef} /> : null;
 };
 
 export default AudioVisualiser;

@@ -33,7 +33,7 @@ export default function Recorder(props) {
 
   return (
     <div>
-      <button className="record-button" onClick={isRecording ? stopSpeechToText : startSpeechToText}>
+      <button className="record-button grid place-items-center	" onClick={isRecording ? stopSpeechToText : startSpeechToText}>
         {isRecording ? <StopCircle color='#FFF' size="42" /> : <Mic color='#FFF' size="42" />}
       </button>
     </div>
