@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../card";
+// import Card from "../card";
 import InputInformation from "./InputInfo";
 import { useState } from "react";
 import axiosClient from "../../ultils/AxiosClient";

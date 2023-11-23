@@ -133,7 +133,7 @@ const router = createBrowserRouter([
         path: '/home/chat',
         element: (
             <HomeLayout>
-                <PrivateRoute path="/home/profile" element={<Chat />} />
+                <PrivateRoute path="/home/chat" element={<Chat />} />
             </HomeLayout>
         )
     },

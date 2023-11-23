@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Card from "../card";
+
 import InputInformation from "./InputInfo";
 import CreateQuestion from "./CreateQuestion";
 

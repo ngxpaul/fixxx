@@ -1,7 +1,7 @@
 import React from "react";
 import InputInformation from "./InputInfo";
 import { useState } from "react";
-import Card from '../card'
+// import Card from '../card'
 import Alert from "../alert/Alert";
 import axiosClient from "../../ultils/AxiosClient";
 import { DefaultModal } from "./sub-component/DefaultModal";

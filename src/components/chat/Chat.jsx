@@ -8,20 +8,31 @@ import { MediaStreamProvider } from './contexts/MediaStreamContext';
 import { AudioAnalyserProvider } from './contexts/AudioAnalyserContext';
 import { InputAudioProvider } from './contexts/InputAudioContext';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <MediaStreamProvider video={false} audio={true}>
-      <InputAudioProvider>
-        <AudioAnalyserProvider>
-          <App />
-        </AudioAnalyserProvider>
-      </InputAudioProvider>
-    </MediaStreamProvider>
-  </React.StrictMode>
-);
+<ReactDOM className="render"></ReactDOM>
+
+
+
+
+const Chat = () => {
+  return (
+      <div className="grid grid-cols-2 gap-4 p-2">
+        <MediaStreamProvider video={false} audio={true}>
+<InputAudioProvider>
+  <AudioAnalyserProvider>
+    <App />
+  </AudioAnalyserProvider>
+</InputAudioProvider>
+</MediaStreamProvider>
+      </div>
+  );
+};
+
 export default Chat;
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
+
+
+
+
+
+//
