@@ -1,0 +1,17 @@
+.bg-gradient-to-r {
+    background-image: linear-gradient(to right, #c6eea6, #70ef60, #16cdc1, #38aefc, #2fabf4);
+}
+
+.double-button:hover {
+    border-color: #70ef60;
+    color: #70ef60;
+}
+
+.button-group {
+    background-color: transparent !important;
+}
+
+.card-price {
+    border-radius: 20px !important;
+    border-color: rgb(167 243 208) !important;
+}
